@@ -42,6 +42,10 @@ p {
   margin-bottom: 3rem;
 }
 
+.golden-text {
+  color: #f1c40f;
+}
+
 /***************************** Heading **************************/
 
 .heading-container {
@@ -159,4 +163,42 @@ header ul li:hover {
   height: 2px;
   width: 50px;
   background: #0e0c0c;
+}
+
+/***************************** Team **************************/
+
+.team {
+  display: flex;
+  flex-flow: row nowrap;
+}
+
+.team-img,
+.team-text {
+  flex: 1;
+}
+
+.team-img img {
+  width: 100%;
+}
+
+.team-text {
+  padding: 6rem;
+  background-color: #292424;
+  color: white;
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+}
+
+.team-text h2 {
+  font-size: 2rem;
+  text-align: center;
+  padding: 0 2rem;
+}
+
+.team-text p {
+  margin: 1rem 2rem;
+  text-align: justify;
+  font-size: 1.2rem;
+  line-height: 2rem;
 }
