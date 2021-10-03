@@ -1,0 +1,104 @@
+/***************************** Theme **************************/
+
+.title {
+  font-weight: 400;
+  font-size: 2rem;
+  margin-bottom: 2rem;
+}
+
+/***************************** Heading **************************/
+
+header {
+  flex-direction: column;
+}
+
+.banner-content h1 {
+  font-size: 2rem;
+  margin-bottom: 2rem;
+}
+
+/***************************** Offers **************************/
+.offers {
+  padding: 4rem 1rem;
+}
+
+.offers-items {
+  display: flex;
+  flex-flow: column;
+}
+
+.offers-item {
+  margin: 0;
+  margin-bottom: 1rem;
+}
+
+/***************************** Team **************************/
+
+.team {
+  display: flex;
+  flex-flow: column-reverse nowrap;
+}
+
+.team-text {
+  padding: 1rem;
+}
+
+.team-img {
+  min-height: 20rem;
+}
+
+.team-text h2 {
+  font-size: 1.8rem;
+  text-align: center;
+  padding: 0 1rem;
+}
+
+.team-text p {
+  margin: 1rem;
+  text-align: center;
+  font-size: 1.2rem;
+  line-height: 1.5rem;
+}
+
+/***************************** Testimonials **************************/
+.testimonials {
+  padding: 4rem 1rem;
+}
+
+.testimonial-profile {
+  padding: 1rem 0;
+}
+
+.testimonial {
+  flex: 1;
+  background-color: white;
+  margin-bottom: 1rem;
+  flex-flow: column nowrap;
+}
+
+/***************************** Contact **************************/
+
+.contact {
+  padding: 4rem 1rem;
+}
+
+.contact-form input,
+textarea {
+  font-size: 1.2rem;
+}
+
+.contact-form textarea {
+  line-height: 2rem;
+}
+
+.form-button {
+  font-size: 1.2rem;
+  padding: 1.2rem 2rem;
+  border-radius: 2rem;
+}
+
+/***************************** Footer **************************/
+
+footer {
+  padding: 2rem 1rem;
+}

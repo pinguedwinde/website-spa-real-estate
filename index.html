@@ -30,9 +30,9 @@
           <a href="#">Pingo Real Estate</a>
         </h2>
         <ul>
-          <li><a href="#">Offers</a></li>
-          <li><a href="#">Our Team</a></li>
-          <li><a href="#">Contact</a></li>
+          <li><a href="#offers">Offers</a></li>
+          <li><a href="#team">Our Team</a></li>
+          <li><a href="#contact">Contact</a></li>
         </ul>
       </header>
       <section class="banner">
@@ -52,17 +52,14 @@
         </div>
       </section>
     </div>
-    <section class="offers">
+    <section id="offers" class="offers">
       <div class="container">
         <h2 class="title">Our last offers</h2>
         <ul class="offers-items">
           <li class="offers-item">
-            <img
-              src="/images/house1.jpg"
-              alt="house 1"
-              class="offers-item-img"
-            />
-
+            <div class="offers-item-img">
+              <img src="/images/house1.jpg" alt="house 1" />
+            </div>
             <div class="offers-item-text">
               <p>Appartement - Paris 75016</p>
               <p>10 pieces 500 m²</p>
@@ -71,12 +68,9 @@
             </div>
           </li>
           <li class="offers-item">
-            <img
-              src="/images/house2.jpg"
-              alt="house 2"
-              class="offers-item-img"
-            />
-
+            <div class="offers-item-img">
+              <img src="/images/house2.jpg" alt="house 2" />
+            </div>
             <div class="offers-item-text">
               <p>Appartement - Paris 75016</p>
               <p>10 pieces 500 m²</p>
@@ -85,12 +79,9 @@
             </div>
           </li>
           <li class="offers-item">
-            <img
-              src="/images/house3.jpg"
-              alt="house 3"
-              class="offers-item-img"
-            />
-
+            <div class="offers-item-img">
+              <img src="/images/house3.jpg" alt="house 3" />
+            </div>
             <div class="offers-item-text">
               <p>Appartement - Paris 75016</p>
               <p>10 pieces 500 m²</p>
@@ -99,12 +90,9 @@
             </div>
           </li>
           <li class="offers-item">
-            <img
-              src="/images/house4.jpg"
-              alt="house 4"
-              class="offers-item-img"
-            />
-
+            <div class="offers-item-img">
+              <img src="/images/house4.jpg" alt="house 4" />
+            </div>
             <div class="offers-item-text">
               <p>Appartement - Paris 75016</p>
               <p>10 pieces 500 m²</p>
@@ -113,12 +101,9 @@
             </div>
           </li>
           <li class="offers-item">
-            <img
-              src="/images/house5.jpg"
-              alt="house 5"
-              class="offers-item-img"
-            />
-
+            <div class="offers-item-img">
+              <img src="/images/house5.jpg" alt="house 5" />
+            </div>
             <div class="offers-item-text">
               <p>Appartement - Paris 75016</p>
               <p>10 pieces 500 m²</p>
@@ -127,12 +112,9 @@
             </div>
           </li>
           <li class="offers-item">
-            <img
-              src="/images/house6.jpg"
-              alt="house 6"
-              class="offers-item-img"
-            />
-
+            <div class="offers-item-img">
+              <img src="/images/house6.jpg" alt="house 6" />
+            </div>
             <div class="offers-item-text">
               <p>Appartement - Paris 75016</p>
               <p>10 pieces 500 m²</p>
@@ -143,10 +125,8 @@
         </ul>
       </div>
     </section>
-    <section class="team">
-      <div class="team-img">
-        <img src="/images/team.jpg" alt="team" />
-      </div>
+    <section id="team" class="team">
+      <div class="team-img"></div>
       <div class="team-text">
         <h2>
           A culture of
@@ -190,11 +170,6 @@
             </div>
           </div>
           <div class="testimonial">
-            <div class="testimonial-profile">
-              <img src="/images/person2.jpg" alt="person 2" />
-              <p>Christopher Campbell</p>
-              <em>Developer Web</em>
-            </div>
             <div class="testimonial-text">
               <p>
                 <i class="fas fa-quote-left"></i>
@@ -204,6 +179,11 @@
                 voluptatem perferendis?
                 <i class="fas fa-quote-right"></i>
               </p>
+            </div>
+            <div class="testimonial-profile">
+              <img src="/images/person2.jpg" alt="person 2" />
+              <p>Christopher Campbell</p>
+              <em>Developer Web</em>
             </div>
           </div>
           <div class="testimonial">
@@ -224,11 +204,6 @@
             </div>
           </div>
           <div class="testimonial">
-            <div class="testimonial-profile">
-              <img src="/images/person4.jpg" alt="person 4" />
-              <p>Ety Fidele</p>
-              <em>CEO Art Grapic</em>
-            </div>
             <div class="testimonial-text">
               <p>
                 <i class="fas fa-quote-left"></i>
@@ -239,11 +214,16 @@
                 <i class="fas fa-quote-right"></i>
               </p>
             </div>
+            <div class="testimonial-profile">
+              <img src="/images/person4.jpg" alt="person 4" />
+              <p>Ety Fidele</p>
+              <em>CEO Art Grapic</em>
+            </div>
           </div>
         </div>
       </div>
     </section>
-    <section class="contact">
+    <section id="contact" class="contact">
       <form action="#" class="contact-form">
         <h2 class="title">To <strong>contact</strong> us</h2>
         <input type="text" name="name" id="name" placeholder="Your name" />

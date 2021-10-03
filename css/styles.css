@@ -105,6 +105,7 @@ header ul li:hover {
   align-items: center;
   text-align: center;
   background: url(/images/banner.jpg) center center/ cover;
+  padding: 1rem;
 }
 
 .banner-content {
@@ -141,13 +142,17 @@ header ul li:hover {
 }
 
 .offers-item {
-  flex: 1;
+  flex: 1 1 20rem;
   margin: 1rem;
   background-color: white;
 }
 
 .offers-item-img {
-  width: 23rem;
+  width: 100%;
+}
+
+.offers-item-img img {
+  width: 100%;
 }
 
 .offers-item-text {
@@ -178,9 +183,8 @@ header ul li:hover {
   flex: 1;
 }
 
-.team-img img {
-  width: 100%;
-  height: 100%;
+.team-img {
+  background: url(/images/team.jpg) center center/cover;
 }
 
 .team-text {
@@ -257,12 +261,16 @@ header ul li:hover {
   align-items: center;
 }
 
+.testimonial-text p {
+  padding: 1rem 1.5rem;
+}
+
 .fa-quote-left {
-  padding-right: 1rem;
+  padding-right: 0.5rem;
 }
 
 .fa-quote-right {
-  padding-left: 1rem;
+  padding-left: 0.5rem;
 }
 
 /***************************** Contact **************************/
