@@ -1,0 +1,162 @@
+/***************************** Reset **************************/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  font-family: "Lato", sans-serif;
+  background-color: #f0efef;
+  color: #0e0c0c;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  margin-bottom: 1rem;
+}
+
+a {
+  color: #0e0c0c;
+  text-decoration: none;
+}
+
+p {
+  margin-bottom: 1rem;
+}
+
+/***************************** Utilities **************************/
+.container {
+  display: block;
+  max-width: 1200px;
+  margin: auto;
+}
+
+/***************************** Theme **************************/
+.title {
+  font-weight: 400;
+  font-size: 3rem;
+  margin-bottom: 3rem;
+}
+
+/***************************** Heading **************************/
+
+.heading-container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+header {
+  padding: 1rem 2.2rem;
+  background-color: #0e0c0c;
+  color: white;
+  line-height: 3.6rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header h2 {
+  margin-bottom: 0;
+  font-size: 2rem;
+}
+
+header h2 a {
+  color: white;
+  font-family: "Oleo Script Swash Caps", cursive;
+}
+
+header h2 i {
+  font-size: 1.8rem;
+  color: #f1c40f;
+  padding: 0.5rem;
+}
+
+header ul {
+  list-style: none;
+  display: flex;
+  flex-flow: row nowrap;
+}
+
+header ul li a {
+  color: white;
+  font-size: 1.2rem;
+  padding: 0.9rem;
+}
+
+header ul li:hover {
+  background-color: #292424;
+}
+
+.banner {
+  flex: auto;
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background: url(/images/banner.jpg) center center/ cover;
+}
+
+.banner-content {
+  max-width: 750px;
+  color: white;
+}
+
+.banner-content h1 {
+  font-size: 3rem;
+  margin-bottom: 3rem;
+}
+
+.banner-content h1 strong {
+  color: #f1c40f;
+}
+
+.banner-content p {
+  font-size: 1.5rem;
+  line-height: 2.5rem;
+}
+
+/***************************** Offers **************************/
+
+.offers {
+  padding: 8rem 1rem;
+}
+
+.offers-items {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  align-items: center;
+  list-style: none;
+}
+
+.offers-item {
+  flex: 1;
+  margin: 1rem;
+  background-color: white;
+}
+
+.offers-item-img {
+  width: 23rem;
+}
+
+.offers-item-text {
+  padding: 2rem 0;
+}
+
+.offers-item-text p {
+  font-size: 1.2rem;
+  text-align: center;
+}
+
+.offer-item-separator {
+  margin: 1rem auto;
+  height: 2px;
+  width: 50px;
+  background: #0e0c0c;
+}
